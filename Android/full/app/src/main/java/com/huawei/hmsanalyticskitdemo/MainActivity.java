@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.ENGLISH);
         bundle.putString("answerTime", sdf.format(new Date()));
 
-        // Report a preddefined Event
+        // Report a customzied Event
         instance.onEvent("Answer", bundle);
     }
 

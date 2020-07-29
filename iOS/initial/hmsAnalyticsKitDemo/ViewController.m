@@ -16,6 +16,7 @@
 
 #import "ViewController.h"
 #import "SettingsViewController.h"
+#import "HiAnalytics/HiAnalytics.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *question;
@@ -49,6 +50,17 @@
 }
 
 -(void) reportAnswer:(id)sender{
+    //set user name
+       [HiAnalytics setUserId:@"Li Lei"];
+    UIButton *button = (UIButton *)sender;
+    NSString *mesage = [button currentTitle];
+    NSDateFormatter *nsdf=[[NSDateFormatter alloc] init];
+    [nsdf setDateStyle:NSDateFormatterShortStyle];
+    [nsdf setDateFormat:@"YYYY/MM/dd HH:mm:ss"];
+    NSString *time=[nsdf stringFromDate:[NSDate date]];
+    
+    //report event
+   [HiAnalytics onEvent:@"QuestionAnsweringEvent" setParams:@{@"Answer":mesage,@"Timestamp":time}];
 }
 
 @end

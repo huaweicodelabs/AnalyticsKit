@@ -15,6 +15,7 @@
 */
 
 #import "SettingsViewController.h"
+#import "HiAnalytics/HiAnalytics.h"
 
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *submit;
@@ -45,6 +46,15 @@
 }
 
 - (void)settings{
+    if(_sex.text){
+           [HiAnalytics setUserProfile:@"user_sex" setValue:_sex.text];
+       }
+    if(_age.text){
+           [HiAnalytics setUserProfile:@"user_age" setValue:_age.text];
+       }
+    if(_favor.text){
+           [HiAnalytics setUserProfile:@"user_favor" setValue:_favor.text];
+       }
 }
 
 - (void)backButtonPressed:(id)sender{
