@@ -56,13 +56,13 @@ Software requirements:
 ## Result
 After running the app you should see a screen like this:
 
-<img src="images/screen_0.png" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
 Click TRUE or FALSE to answer the question; Click NEXT to show the next question; Click POST SCORE, log the score user got. All the information will be uploaded to the Hianalytics Console, and you can see these information in real time using Debug View.
 
 Click button SETTINGS:
 
-<img src="images/screen_1.png" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
 
 When you click SETTINGS, you will be asked for your favorite sport. Your choice will be logged by Hianalytics as a user attribute.
 
