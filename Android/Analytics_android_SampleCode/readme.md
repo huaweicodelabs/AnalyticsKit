@@ -66,12 +66,12 @@ You should create an app in AppGallery Connect, and obtain the file of agconnect
 ## Result
 After running the app you should see a screen like this:
 
-<img src="images/screen_0.png" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
 Click the button TRUE or FALSE to answer the question; Click the NEXT, show the next question; Click POST SCORE, log the score user got. All the infomations will be upload to Hianalytics Console, and you can see these infomations in real time using Debug View.
 
 Click button SETTINGS:
-<img src="images/screen_1.png" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
 
 You will be asked what your favorite sport is. This choice will be logged to Hianalytics as a User Property.
 
