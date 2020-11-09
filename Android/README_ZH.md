@@ -28,9 +28,9 @@ Hmsanalyticskitdemo提供了华为分析服务（HUAWEI Analytics Kit）与app�
 
 Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析服务SDK。
 
-首先，我们通过克隆此仓库或下载压缩包的方式来下载Hmsanalyticskitdemo。
+首先，我们通过克隆此仓库或下载压缩包的方式来下载AnalyticsKit-master。
 
-在Android Studio中，点击“Open an existing Android Studio project”，选择“analytics-sample”。
+在Android Studio中，点击“Open an existing Android Studio project”，选择“Analytics_android_Full”。
 
 您可以直接运行gradle build命令构建工程。
 
