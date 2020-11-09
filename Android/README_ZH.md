@@ -32,7 +32,7 @@ Hmsanalyticskitdemo以Gradle构建系统为例演示了如何使用Android分析
 
 在Android Studio中，点击“Open an existing Android Studio project”，选择“analytics-sample”。
 
-您可以直接运行gradlew build命令构建工程。
+您可以直接运行gradle build命令构建工程。
 
 您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5)。
 
