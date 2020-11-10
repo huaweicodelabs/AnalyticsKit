@@ -30,9 +30,9 @@ This sample uses the Gradle build system.
 
 First download the demo by cloning this repository or downloading an archived snapshot.
 
-In Android Studio, use the "Open an existing Android Studio project", and select the directory of "analytics-sample".
+In Android Studio, use the "Open an existing Android Studio project", and select the directory of "Analytics_android_SampleCode".
 
-You can use the "gradlew build" command to build the project directly.
+You can use the "gradle build" command to build the project directly.
 
 You should create an app in AppGallery Connect, and obtain the file of agconnect-services.json and add to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813-V5).
 
