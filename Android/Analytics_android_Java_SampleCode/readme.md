@@ -30,7 +30,7 @@ This sample uses the Gradle build system.
 
 First download the demo by cloning this repository or downloading an archived snapshot.
 
-In Android Studio, use the "Open an existing Android Studio project", and select the directory of "Analytics_android_SampleCode".
+In Android Studio, use the "Open an existing Android Studio project", and select the directory of "Analytics_android_Java_SampleCode".
 
 You can use the "gradle build" command to build the project directly.
 
