@@ -58,7 +58,7 @@ You should create an app in AppGallery Connect, and obtain the file of agconnect
     2. A Huawei phone, which is used to debug the developed app
     
     Software requirements:
-    1. HUAWEI Analytics Kit 5.0.5
+    1. HUAWEI Analytics Kit 5.0.0
     2. Android SDK applicable to devices using Android 4.4 KitKat (API level 19) and later versions
     3. Android Studio 
     4. Java JDK 1.7 (JDK 1.8 is recommended.)
