@@ -28,7 +28,7 @@ In this example, we demonstrate how to use the analytics SDK for Android by usin
 
 First download Hmsanalyticskitdemo by cloning this repository or downloading an archived snapshot.
 
-In Android Studio, click Open an existing Android Studio project, and select analytics-sample.
+In Android Studio, click Open an existing Android Studio project, and select "Analytics_android_Java_Full".
 
 You can use the gradlew build command to build the project directly.
 
