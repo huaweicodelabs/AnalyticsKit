@@ -13,8 +13,8 @@
 
 
 ## Introduction
-    HmsAnalyticsKitDemo is a app that applying HUAWEI Hianalytics SDK used for showing how to collect user engagement and user preference.
-[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+HmsAnalyticsKitDemo is a app that applying HUAWEI Hianalytics SDK used for showing how to collect user engagement and user preference.
+[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149).
 
 ## Getting Started
 
