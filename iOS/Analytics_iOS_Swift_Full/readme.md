@@ -14,7 +14,7 @@
 
 ## Introduction
 	Hmsanalyticskitdemo provides an example of integrating HUAWEI Analytics Kit with an app. It illustrates how to collect predefined events and custom events on two pages, namely, question page or user attribute setting page. If you click True or False on the question page, automatically collected events including page exit and page entry will be logged when the page is switched.
-	[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+	[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
 	
 
 ## Getting Started
