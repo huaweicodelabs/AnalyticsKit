@@ -1,8 +1,5 @@
 # HMS AnalyticsKit Demo for ios
 
-[![hms](https://img.shields.io/badge/hms-analytics-brightgreen)](https://developer.huawei.com/consumer/en/doc/development/HMS-References/3021004) 
-
-English | [中文](https://github.com/HMS-Core/hms-ananlytics-demo-ios/blob/master/README_ZH.md)
 
 ## Table of Contents
 
