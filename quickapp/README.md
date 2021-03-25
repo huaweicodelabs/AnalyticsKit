@@ -48,13 +48,13 @@ Software requirements:
 
 After running the app you should see a screen like this:
 
-![screen_0](screenshot/screen_0.png)
+![screen_0](screenshot/screen_0.PNG)
 
 Click the button TRUE or FALSE to answer the question; Click the NEXT, show the next question; Click POST SCORE, log the score user got. All the infomations will be upload to Hianalytics, and you can see these infomations in real time using Real-time.
 
 Click button SETTINGS:
 
-![screen_1](screenshot/screen_1.png)
+![screen_1](screenshot/screen_1.PNG)
 
 You will be asked what your favorite sport is. This choice will be logged to Hianalytics as a User Property.
 
