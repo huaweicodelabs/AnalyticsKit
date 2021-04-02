@@ -14,11 +14,33 @@
  limitations under the License.
  */
 
-#import <UIKit/UIKit.h>
+#import "SettingViewController.h"
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
-
-@property (strong, nonatomic) UIWindow * window;
-
+@interface SettingViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 @end
 
+@implementation SettingViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (IBAction)saveBtnClick:(UIButton *)sender {
+    [self.textField resignFirstResponder];
+    if (self.textField.text.length<=0) {
+        [HToast showMessage:@"Please enter your favorite sport."];
+        return;
+    }
+    
+    // TODO: save favorite sport by user setUserProperty
+    
+}
+
+
+- (IBAction)clearCacheBtnClick:(UIButton *)sender {
+    // TODO: clear cached dada
+    
+}
+
+@end

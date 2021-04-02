@@ -26,13 +26,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //TODO:Initialize configuration.
+    [HiAnalytics config];
 
-    
     //TODO:Enable event collection.
-    
+    [HiAnalytics setAnalyticsEnabled:YES];
 
     //TODO:Configure report policies.
-    
+    [HiAnalytics setReportPolicies:@[[HAReportPolicy onMoveBackgroundPolicy],[HAReportPolicy onCacheThresholdPolicy:200]]];
     
     return YES;
 }

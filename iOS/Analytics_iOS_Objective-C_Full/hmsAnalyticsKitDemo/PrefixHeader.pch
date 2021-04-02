@@ -14,11 +14,13 @@
  limitations under the License.
  */
 
-#import <UIKit/UIKit.h>
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-@property (strong, nonatomic) UIWindow * window;
+#import <HiAnalytics/HiAnalytics.h>
+#import "HToast.h"
 
-@end
-
+#endif /* PrefixHeader_pch */

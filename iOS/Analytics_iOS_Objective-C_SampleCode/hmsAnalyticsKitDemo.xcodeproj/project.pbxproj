@@ -3,21 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ED11FE624765D610029DCC6 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED11FE324765D610029DCC6 /* SettingsViewController.m */; };
-		4ED11FE724765D610029DCC6 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED11FE424765D610029DCC6 /* SettingsViewController.xib */; };
+		309132E49F1B391942A0B1E3 /* Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3D9702D3F8D160BACDA4C7 /* Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework */; };
+		3C3D5B55CE52DC0F259DA1DB /* Pods_hmsAnalyticsKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E610DD438E25674BF8393D53 /* Pods_hmsAnalyticsKitDemo.framework */; };
 		4ED1B1AB24765B520081FE69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1AA24765B520081FE69 /* AppDelegate.m */; };
 		4ED1B1AE24765B520081FE69 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1AD24765B520081FE69 /* SceneDelegate.m */; };
-		4ED1B1B124765B530081FE69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1B024765B530081FE69 /* ViewController.m */; };
 		4ED1B1B424765B530081FE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED1B1B224765B530081FE69 /* Main.storyboard */; };
 		4ED1B1B624765B540081FE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ED1B1B524765B540081FE69 /* Assets.xcassets */; };
 		4ED1B1B924765B540081FE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED1B1B724765B540081FE69 /* LaunchScreen.storyboard */; };
 		4ED1B1BC24765B540081FE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1BB24765B540081FE69 /* main.m */; };
 		4ED1B1C624765B540081FE69 /* hmsAnalyticsKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1C524765B540081FE69 /* hmsAnalyticsKitDemoTests.m */; };
 		4ED1B1D124765B540081FE69 /* hmsAnalyticsKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED1B1D024765B540081FE69 /* hmsAnalyticsKitDemoUITests.m */; };
+		A60EC0E7256F921200FAE8A1 /* HToast.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EC0E4256F921200FAE8A1 /* HToast.m */; };
+		A60EC0E8256F921200FAE8A1 /* HToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EC0E5256F921200FAE8A1 /* HToastView.m */; };
+		A65149EC2564BEAA00036D9F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65149EB2564BEAA00036D9F /* MainViewController.m */; };
+		A65149F22564BEC800036D9F /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65149F12564BEC800036D9F /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4ED11FE124765D610029DCC6 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		4ED11FE324765D610029DCC6 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		4ED11FE424765D610029DCC6 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		11067CBACC4BDD70764FF729 /* Pods-hmsAnalyticsKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmsAnalyticsKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-hmsAnalyticsKitDemo/Pods-hmsAnalyticsKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4C9AC9221A7D54DBF65581 /* Pods-hmsAnalyticsKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmsAnalyticsKitDemo.release.xcconfig"; path = "Target Support Files/Pods-hmsAnalyticsKitDemo/Pods-hmsAnalyticsKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		318130B21F00999103D71AA4 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests/Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4ED1B1A624765B520081FE69 /* hmsAnalyticsKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hmsAnalyticsKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED1B1A924765B520081FE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4ED1B1AA24765B520081FE69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4ED1B1AC24765B520081FE69 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		4ED1B1AD24765B520081FE69 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4ED1B1AF24765B530081FE69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4ED1B1B024765B530081FE69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4ED1B1B324765B530081FE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ED1B1B524765B540081FE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ED1B1B824765B540081FE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +60,18 @@
 		4ED1B1CC24765B540081FE69 /* hmsAnalyticsKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hmsAnalyticsKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED1B1D024765B540081FE69 /* hmsAnalyticsKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hmsAnalyticsKitDemoUITests.m; sourceTree = "<group>"; };
 		4ED1B1D224765B540081FE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F3D9702D3F8D160BACDA4C7 /* Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60EC0E3256F921200FAE8A1 /* HToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HToastView.h; sourceTree = "<group>"; };
+		A60EC0E4256F921200FAE8A1 /* HToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HToast.m; sourceTree = "<group>"; };
+		A60EC0E5256F921200FAE8A1 /* HToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HToastView.m; sourceTree = "<group>"; };
+		A60EC0E6256F921200FAE8A1 /* HToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HToast.h; sourceTree = "<group>"; };
+		A65149EA2564BEAA00036D9F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A65149EB2564BEAA00036D9F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A65149F02564BEC800036D9F /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		A65149F12564BEC800036D9F /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		A6908FA52564F31500CB5902 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E610DD438E25674BF8393D53 /* Pods_hmsAnalyticsKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmsAnalyticsKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F450F53EB726BF5569C91850 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests/Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3D5B55CE52DC0F259DA1DB /* Pods_hmsAnalyticsKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309132E49F1B391942A0B1E3 /* Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,10 @@
 		01FDF9E6195DD85577945269 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				11067CBACC4BDD70764FF729 /* Pods-hmsAnalyticsKitDemo.debug.xcconfig */,
+				2D4C9AC9221A7D54DBF65581 /* Pods-hmsAnalyticsKitDemo.release.xcconfig */,
+				F450F53EB726BF5569C91850 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.debug.xcconfig */,
+				318130B21F00999103D71AA4 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,6 +120,7 @@
 				4ED1B1CF24765B540081FE69 /* hmsAnalyticsKitDemoUITests */,
 				4ED1B1A724765B520081FE69 /* Products */,
 				01FDF9E6195DD85577945269 /* Pods */,
+				C18694EFE9DBCBBD0D5212C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,16 +137,17 @@
 		4ED1B1A824765B520081FE69 /* hmsAnalyticsKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4ED11FE124765D610029DCC6 /* SettingsViewController.h */,
-				4ED11FE324765D610029DCC6 /* SettingsViewController.m */,
-				4ED11FE424765D610029DCC6 /* SettingsViewController.xib */,
 				4ED1B1A924765B520081FE69 /* AppDelegate.h */,
 				4ED1B1AA24765B520081FE69 /* AppDelegate.m */,
 				4ED1B1AC24765B520081FE69 /* SceneDelegate.h */,
 				4ED1B1AD24765B520081FE69 /* SceneDelegate.m */,
-				4ED1B1AF24765B530081FE69 /* ViewController.h */,
-				4ED1B1B024765B530081FE69 /* ViewController.m */,
+				A65149EA2564BEAA00036D9F /* MainViewController.h */,
+				A65149EB2564BEAA00036D9F /* MainViewController.m */,
+				A65149F02564BEC800036D9F /* SettingViewController.h */,
+				A65149F12564BEC800036D9F /* SettingViewController.m */,
+				A6908FA52564F31500CB5902 /* PrefixHeader.pch */,
 				4ED1B1B224765B530081FE69 /* Main.storyboard */,
+				A60EC0E2256F921200FAE8A1 /* Toast */,
 				4ED1B1B524765B540081FE69 /* Assets.xcassets */,
 				4ED1B1B724765B540081FE69 /* LaunchScreen.storyboard */,
 				4ED1B1BA24765B540081FE69 /* Info.plist */,
@@ -153,6 +174,26 @@
 			path = hmsAnalyticsKitDemoUITests;
 			sourceTree = "<group>";
 		};
+		A60EC0E2256F921200FAE8A1 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				A60EC0E6256F921200FAE8A1 /* HToast.h */,
+				A60EC0E4256F921200FAE8A1 /* HToast.m */,
+				A60EC0E3256F921200FAE8A1 /* HToastView.h */,
+				A60EC0E5256F921200FAE8A1 /* HToastView.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		C18694EFE9DBCBBD0D5212C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E610DD438E25674BF8393D53 /* Pods_hmsAnalyticsKitDemo.framework */,
+				6F3D9702D3F8D160BACDA4C7 /* Pods_hmsAnalyticsKitDemo_hmsAnalyticsKitDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED1B1D524765B540081FE69 /* Build configuration list for PBXNativeTarget "hmsAnalyticsKitDemo" */;
 			buildPhases = (
+				F95C3B6F96E52FE8E0A27A17 /* [CP] Check Pods Manifest.lock */,
 				4ED1B1A224765B520081FE69 /* Sources */,
 				4ED1B1A324765B520081FE69 /* Frameworks */,
 				4ED1B1A424765B520081FE69 /* Resources */,
@@ -195,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED1B1DB24765B540081FE69 /* Build configuration list for PBXNativeTarget "hmsAnalyticsKitDemoUITests" */;
 			buildPhases = (
+				3D13A456DA91570922B0DF6E /* [CP] Check Pods Manifest.lock */,
 				4ED1B1C824765B540081FE69 /* Sources */,
 				4ED1B1C924765B540081FE69 /* Frameworks */,
 				4ED1B1CA24765B540081FE69 /* Resources */,
@@ -259,7 +302,6 @@
 				4ED1B1B924765B540081FE69 /* LaunchScreen.storyboard in Resources */,
 				4ED1B1B624765B540081FE69 /* Assets.xcassets in Resources */,
 				4ED1B1B424765B530081FE69 /* Main.storyboard in Resources */,
-				4ED11FE724765D610029DCC6 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,16 +321,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D13A456DA91570922B0DF6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F95C3B6F96E52FE8E0A27A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hmsAnalyticsKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ED1B1A224765B520081FE69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED1B1B124765B530081FE69 /* ViewController.m in Sources */,
 				4ED1B1AB24765B520081FE69 /* AppDelegate.m in Sources */,
-				4ED11FE624765D610029DCC6 /* SettingsViewController.m in Sources */,
 				4ED1B1BC24765B540081FE69 /* main.m in Sources */,
 				4ED1B1AE24765B520081FE69 /* SceneDelegate.m in Sources */,
+				A65149EC2564BEAA00036D9F /* MainViewController.m in Sources */,
+				A60EC0E7256F921200FAE8A1 /* HToast.m in Sources */,
+				A65149F22564BEC800036D9F /* SettingViewController.m in Sources */,
+				A60EC0E8256F921200FAE8A1 /* HToastView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +466,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -433,6 +525,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -455,16 +548,21 @@
 		};
 		4ED1B1D624765B540081FE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11067CBACC4BDD70764FF729 /* Pods-hmsAnalyticsKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HAX6GK3P64;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = KSVZ54U2HD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/hmsAnalyticsKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = hmsAnalyticsKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HWhmsAnalyticsKitDemo;
+				MARKETING_VERSION = 5.1.0.300;
+				PRODUCT_BUNDLE_IDENTIFIER = com.analyticskit.ios.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,16 +570,21 @@
 		};
 		4ED1B1D724765B540081FE69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4C9AC9221A7D54DBF65581 /* Pods-hmsAnalyticsKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HAX6GK3P64;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = KSVZ54U2HD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/hmsAnalyticsKitDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = hmsAnalyticsKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HWhmsAnalyticsKitDemo;
+				MARKETING_VERSION = 5.1.0.300;
+				PRODUCT_BUNDLE_IDENTIFIER = com.analyticskit.ios.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,6 +595,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = HAX6GK3P64;
 				INFOPLIST_FILE = hmsAnalyticsKitDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -512,6 +616,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = HAX6GK3P64;
 				INFOPLIST_FILE = hmsAnalyticsKitDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
@@ -529,8 +634,10 @@
 		};
 		4ED1B1DC24765B540081FE69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F450F53EB726BF5569C91850 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = HAX6GK3P64;
 				INFOPLIST_FILE = hmsAnalyticsKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -547,8 +654,10 @@
 		};
 		4ED1B1DD24765B540081FE69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318130B21F00999103D71AA4 /* Pods-hmsAnalyticsKitDemo-hmsAnalyticsKitDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
 				DEVELOPMENT_TEAM = HAX6GK3P64;
 				INFOPLIST_FILE = hmsAnalyticsKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
