@@ -6,6 +6,7 @@ target 'hmsAnalyticsKitDemo' do
   use_frameworks!
 
   # Pods for hmsAnalyticsKitDemo
+  pod 'HiAnalytics'
   target 'hmsAnalyticsKitDemoUITests' do
     # Pods for testing
   end
