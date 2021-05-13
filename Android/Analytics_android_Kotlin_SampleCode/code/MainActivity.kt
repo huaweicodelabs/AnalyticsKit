@@ -23,7 +23,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 
-// TODO: import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,13 +46,13 @@ class MainActivity : AppCompatActivity() {
 
     private var score = 0
 
-    // TODO: Define a var for Analytics Instance
+    //TODO: Define a variable for the Analytics Kit instance.
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // TODO: Initiate Analytics Kit
+        // TODO: Initialize Analytics Kit.
 
         txtQuestion = findViewById(R.id.question_text_view)
         txtQuestion.setText(questions[curQuestionIdx])
@@ -96,26 +96,26 @@ class MainActivity : AppCompatActivity() {
         if (answer == answers[curQuestionIdx]) {
             score = score + 20
             Toast.makeText(this, R.string.correct_answer, Toast.LENGTH_SHORT).show()
-            // TODO: Report a customized Event
+            // TODO: Report a custom Event
 
         } else {
             Toast.makeText(this, R.string.wrong_answer, Toast.LENGTH_SHORT).show()
-            // TODO: Report a customized Event
+            // TODO: Report a custom Event
 
         }
         return answers[curQuestionIdx]
     }
 
     private fun reportAnswerEvt(answer: String) {
-        // TODO: Report a customzied Event
+        // TODO: Report a custom event.
         // Event Name: Answer
         // Event Parameters:
         //  -- question: String
-        //  -- answer:String
+        //  -- answer: String
         //  -- answerTime: String
     }
 
     private fun postScore() {
-        // TODO: Report score by using SUBMITSCORE Event
+        // TODO: Report the score by using the SUBMITSCORE event.
     }
 }
