@@ -21,7 +21,7 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
-// TODO: import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 
 class SettingActivity : AppCompatActivity() {
 
@@ -29,21 +29,21 @@ class SettingActivity : AppCompatActivity() {
     private lateinit var editFavorSport: EditText
     private lateinit var strFavorSport: String
 
-    // TODO: Define a var for Analytics Instance
+    // TODO: Define a variable for the Analytics Kit instance.
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_setting)
 
-        // TODO: Genarate Analytics Kit Instance
+        // TODO: Generate an Analytics Kit instance.
 
         btnSave = findViewById(R.id.save_setting_button)
-        editFavorSport = findViewById(R.id.edit_favoraite_sport)
+        editFavorSport = findViewById(R.id.edit_favorite_sport)
 
         btnSave.setOnClickListener {
-
             strFavorSport = editFavorSport.text.toString().trim()
-            // TODO: save favorite sport by user setUserProperty
+           
+            // TODO: Set users' favorite sport using the setUserProfile API.
 
         }
     }
