@@ -22,7 +22,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
-// TODO: import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 
 
 public class SettingActivity extends AppCompatActivity {
@@ -30,7 +30,7 @@ public class SettingActivity extends AppCompatActivity {
     private EditText editFavorSport;
     private String strFavorSport;
     
-    // TODO: Define a var for Analytics Instance
+    // TODO: Define a variable for the Analytics Kit instance.
 	
 
     @Override
@@ -38,16 +38,16 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
         
-        // TODO: Genarate Analytics Kit Instance
+        // TODO: Generate an Analytics Kit instance.
 		
 
         btnSave = (Button)findViewById(R.id.save_setting_button);
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                editFavorSport = (EditText)findViewById(R.id.edit_favoraite_sport);
+                editFavorSport = (EditText)findViewById(R.id.edit_favorite_sport);
                 strFavorSport = editFavorSport.getText().toString().trim();
-                // TODO: save favorite sport by user setUserProperty
+                // TODO: Set users' favorite sport using the setUserProfile API.
                 
             }
         });
