@@ -17,17 +17,17 @@
 package com.huawei.hmsanalyticskitdemo;
 
 import android.content.Intent;
-import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
 
-// TODO: import classes from Analytics Kit
+// TODO: Import classes from Analytics Kit.
 
 
 public class MainActivity extends AppCompatActivity {
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private int score = 0;
 
 
-    // TODO: Define a var for Analytics Instance
+    // TODO: Define a variable for the Analytics Kit instance.
 	
 
     @Override
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO: Initiate Analytics Kit
+        // TODO: Initialize Analytics Kit.
 
 		
         txtQuestion = (TextView)findViewById(R.id.question_text_view);
@@ -122,29 +122,29 @@ public class MainActivity extends AppCompatActivity {
         if(answer == answers[curQuestionIdx]) {
             score = score + 20;
             Toast.makeText(this,R.string.correct_answer, Toast.LENGTH_SHORT).show();
-            // TODO: Report a customized Event
+            // TODO: Report a custom Event
 
         }
         else {
             Toast.makeText(this,R.string.wrong_answer, Toast.LENGTH_SHORT).show();
-            // TODO: Report a customized Event
+            // TODO: Report a custom Event
 
         }
         return answers[curQuestionIdx];
     }
 
     private void reportAnswerEvt(String answer) {
-        // TODO: Report a customzied Event
+        // TODO: Report a custom event.
         // Event Name: Answer
         // Event Parameters:
         //  -- question: String
-        //  -- answer:String
+        //  -- answer: String
         //  -- answerTime: String
 
     }
 
     private void postScore() {
-        // TODO: Report score by using SUBMITSCORE Event
+        // TODO: Report the score by using the SUBMITSCORE event.
 		
 		
     }
