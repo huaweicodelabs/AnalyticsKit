@@ -40,7 +40,6 @@ import java.util.Map;
  * @since 2020-05-28
  */
 public class HttpClientUtil {
-
     private static final Log LOG = LogFactory.getLog(HttpClientUtil.class.getName());
 
     private static final CloseableHttpClient HTTP_CLIENT;

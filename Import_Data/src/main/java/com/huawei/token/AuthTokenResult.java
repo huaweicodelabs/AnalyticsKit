@@ -15,6 +15,11 @@ package com.huawei.token;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * AuthTokenResult
+ *
+ * @since 2021-08-07
+ */
 public class AuthTokenResult {
     @JsonProperty("access_token")
     private String accessToken;

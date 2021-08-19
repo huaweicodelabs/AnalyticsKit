@@ -15,6 +15,11 @@ package com.huawei.token;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * AuthTokenRequest
+ *
+ * @since 2021-08-07
+ */
 public class AuthTokenRequest {
     @JsonProperty("grant_type")
     private String grantType = "client_credentials";

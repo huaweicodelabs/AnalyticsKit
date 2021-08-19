@@ -19,6 +19,11 @@ import com.huawei.util.ObjectMapperHolder;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * GetAuthTokenClient
+ *
+ * @since 2021-08-07
+ */
 public class GetAuthTokenClient {
     private static String HOST_PORT = "https://oauth-login.cloud.huawei.com";
 

@@ -22,10 +22,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 功能描述
+ * Client for import user
  *
- * @author lWX1003749
- * @since 2021-07-07
+ * @since 2021-08-07
  */
 public class ImportUserClient {
     private static final String HOST_PORT = "https://datacollector-dra.dt.hicloud.com";

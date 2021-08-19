@@ -18,10 +18,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 /**
- * 功能描述
+ *  Request for call import user api
  *
- * @author lWX1003749
- * @since 2021-07-07
+ * @since 2021-08-07
  */
 public class ImportUserReq {
     @JsonProperty("data_type")

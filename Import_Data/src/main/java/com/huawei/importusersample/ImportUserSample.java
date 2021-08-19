@@ -25,6 +25,11 @@ import com.huawei.token.GetAuthTokenClient;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Call user to import data case
+ *
+ * @since 2021-08-07
+ */
 public class ImportUserSample {
     public static void main(String[] args) {
         AuthTokenRequest authTokenRequest = getAuthTokenRequest();
@@ -39,75 +44,66 @@ public class ImportUserSample {
     }
 
     /**
-     * 获取AuthToken接口请求头
+     * Get the AuthToken interface request header
      *
-     * @return 请求头信息
+     * @return header
      */
     private static AuthTokenRequest getAuthTokenRequest() {
         AuthTokenRequest authTokenRequest = new AuthTokenRequest();
-        // grant_type 固定不用动
+        // grant_type fixed without moving
         authTokenRequest.setGrantType("client_credentials");
-        // 对于AppGallery Connect类应用，该值为应用的Client Id
+        // The value is the Client Id of the application
         authTokenRequest.setClientId(101760787);
-        // 对于AppGallery Connect类应用，该值为应用的Client Secret
+        // The value is the Client Secret of the application
         authTokenRequest.setClientSecret("c7fd133a9116fab4f26a87151beb45fd4c6ac327b5e69e68d898b5cd59e7370a");
         return authTokenRequest;
     }
 
     /**
-     * 获取用户属性导入接口请求头
+     * Get user attribute import interface request header
      *
-     * @return 请求头信息
+     * @return header
      */
     private static ImportUserHeaders getImportUserHeaders(AuthTokenResult authTokenResult) {
         ImportUserHeaders importUserHeaders = new ImportUserHeaders();
-        // ContentType 固定不用动
+        // ContentType fixed without moving
         importUserHeaders.setContentType("application/json;charset=UTF-8");
-        // 用户在AppGallery Connect上的App ID
+        // User's App ID on AppGallery Connect
         importUserHeaders.setAppId("99329601347532139");
-        // 用户在AppGallery Connect上的Product ID
+        // User's Product ID on AppGallery Connect
         importUserHeaders.setProductId("401957453638926878");
         importUserHeaders.setAuthorization(authTokenResult.getTokenType() + " " + authTokenResult.getAccessToken());
         return importUserHeaders;
     }
 
     /**
-     * 获取用户属性导入接口body参数
+     * Get user attribute import interface body parameter
      *
-     * @return body参数信息
+     * @return body
      */
     private static ImportUserReq getImportUserReq() {
-        // 用户属性
         UserPropertyPojo userPropertyPojo1 = new UserPropertyPojo();
-        // 用户属性的ID，由数字、字母、下划线组合成，且不能以数字开头，1-256个字符。例如：favorite_sport
+        // The ID of the user attribute is a combination of numbers, letters, and underscores, and cannot start with a number, with 1-256 characters. For example: favorite_sport
         userPropertyPojo1.setId("dasd1111111111");
-        // 用户属性值，1-256个字符。例如：football
+        // User attribute value, 1-256 characters. For example: football
         userPropertyPojo1.setValue("value1");
-
         UserPropertyPojo userPropertyPojo2 = new UserPropertyPojo();
         userPropertyPojo2.setId("dasd22222221");
         userPropertyPojo2.setValue("value2");
-
-        // 用户属性列表
         List<UserPropertyPojo> userPropertyPojos = new LinkedList<>();
         userPropertyPojos.add(userPropertyPojo1);
         userPropertyPojos.add(userPropertyPojo2);
 
         UserDataPojo userDataPojo = new UserDataPojo();
-        // 用户ID，1-256个字符
+        // User ID, 1-256 characters
         userDataPojo.setId("1");
-        // 用户属性列表。
         userDataPojo.setProperties(userPropertyPojos);
-
-        // UserDataSet数据
+        // UserDataSet
         List<UserDataPojo> userDataPojos = new LinkedList<>();
         userDataPojos.add(userDataPojo);
 
-        // 请求参数
         ImportUserReq importUserReq = new ImportUserReq();
-        // 自定义用户属性的数据类型
         importUserReq.setDataType(1);
-        // 待导入的用户及属性列表
         importUserReq.setUserDataSet(userDataPojos);
         return importUserReq;
     }

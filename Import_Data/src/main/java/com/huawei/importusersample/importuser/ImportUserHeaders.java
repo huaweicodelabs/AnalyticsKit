@@ -16,10 +16,9 @@ package com.huawei.importusersample.importuser;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
- * 功能描述
+ * Headers for call import user api
  *
- * @author lWX1003749
- * @since 2021-07-07
+ * @since 2021-08-07
  */
 public class ImportUserHeaders {
     @JsonProperty("Content-Type")
