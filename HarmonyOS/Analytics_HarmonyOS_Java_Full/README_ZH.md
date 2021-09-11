@@ -13,26 +13,26 @@
 
 
 ## 简介
-AnalyticsKitDemo提供了华为分析服务（HUAWEI Analytics Kit）与`Hap`集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
-[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+AnalyticsKitDemo提供了华为分析服务（HUAWEI Analytics Kit）与app集成的示例代码。其演示了如何通过收集预定义事件和自定义事件以提高用户参与度和用户偏好。
+[了解更多有关Hianalytics的信息](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 ## 快速入门
 
 更多开发指导，请参考以下链接文档：
 
-[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5)。
+[开发指南](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149)。
 
-[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References-V5/overview-0000001077819400-V5)。
+[API参考](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-References/overview-0000001077819400)。
 
 AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析服务SDK。
 
 首先，我们通过克隆此仓库或下载压缩包的方式来下载AnalyticsKitDemo。
 
-在HUAWEI DevEco Studio中，点击“Open project”，选择“AnalyticsKitDemo”。
+在HUAWEI DevEco Studio中，点击`Open project`，选择`Analytics_HarmonyOS_Java_Full`。
 
 您可以直接运行gradlew build命令构建工程。
 
-您需要在AppGallery Connect中创建应用，获取agconnect-services.json文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides-V5/introduction-0000001050745149-V5).
+您需要在AppGallery Connect中创建应用，获取`agconnect-services.json`文件，并将文件添加到项目中。此外，您还需要生成签名证书指纹，在项目中添加证书文件，并将配置添加到build.gradle文件中。[进一步了解开发流程](https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 
 ## 安装
@@ -56,15 +56,15 @@ AnalyticsKitDemo以Gradle构建系统为例演示了如何使用HarmonyOS分析�
 ## 操作结果
 运行该app后，您将会看到如下页面：
 
-<img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_0.PNG" height="650" width="313" style="max-width:100%;">
 
-点击“True”或“False” 按钮进行答题；点击“Next” 按钮进入下一道题；点击“Post Score”按钮记录用户获得的分数。所有信息将被上传到Hianalytics控制台，您可以使用Debug View实时查看这些信息。
+点击“True”或“False” 按钮进行答题；点击“Next” 按钮进入下一道题；点击“Post Score”按钮记录用户获得的分数。所有信息将被上传到Analytics Kit控制台，您可以使用Debug View实时查看这些信息。
 
 点击Settings按钮:
 
-<img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_1.PNG" height="650" width="313" style="max-width:100%;">
 
-当点击Settings按钮，设置您最喜欢的运动。您的选择将作为用户属性记录到Hianalytics中。
+当点击Settings按钮，设置您最喜欢的运动。您的选择将作为用户属性记录到Analytics Kit中。
 
 ## 授权许可
 AnalyticsKitDemo经过[Apache 2.0授权许可](http://www.apache.org/licenses/LICENSE-2.0).
