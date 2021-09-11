@@ -46,7 +46,7 @@ You should create an app in AppGallery Connect, and obtain the file of `agconnec
     4. Modifying SettingAbilitySlice Class
 
 ## Configuration
-    1. Add the AppGallery Connect configuration file of the current `Hap` to your HUAWEI DevEco Studio.
+    1. Add the AppGallery Connect configuration file of the current Hap to your HUAWEI DevEco Studio.
     Create an app in AppGallery Connect and obtain the project configuration file agconnect-services.json. In HUAWEI DevEco Studio, switch to the Project view and move the agconnect-services.json file to the root directory of the entry module.
     2. Add the dependency of the agconnect service on the main project gradle.
     3. Add the plug-in configuration on the gradle of the entry module.
