@@ -14,7 +14,7 @@
 
 ## Introduction
 Hmsanalyticskitdemo provides an example of integrating HUAWEI Analytics Kit with an app. It illustrates how to collect predefined events and custom events to improve user engagement and user preference.
-[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
+[Read more about Analytics Kit](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149).
 
 You also can use HMS Toolkit to quickly integrate the kit and run the demo project, as well as debug the app using a remote device for free. For details, please visit [HMS Toolkit](https://developer.huawei.com/consumer/en/doc/development/Tools-Guides/getting-started-0000001077381096).
 
@@ -22,19 +22,19 @@ You also can use HMS Toolkit to quickly integrate the kit and run the demo proje
 
 For more development guidance, please refer to the links below:
 
-[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813).
+[Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
-[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References-V5/android-api-analytics-overview-0000001051067140).
+[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/android-api-analytics-overview-0000001051067140).
 
 In this example, we demonstrate how to use the analytics SDK for Android by using the Gradle build system.
 
 First download Hmsanalyticskitdemo by cloning this repository or downloading an archived snapshot.
 
-In Android Studio, click Open an existing Android Studio project, and select "Analytics_android_Java_Full".
+In Android Studio, click Open an existing Android Studio project, and select `Analytics_android_Java_Full`.
 
 You can use the gradlew build command to build the project directly.
 
-You should create an app in AppGallery Connect, and obtain the agconnect-services.json file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-dev-process-0000001050163813).
+You should create an app in AppGallery Connect, and obtain the `agconnect-services.json` file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
 
 ## Installation
@@ -50,23 +50,23 @@ Hardware requirements:
 2. A Huawei phone, which is used to debug the developed app
   
 Software requirements:
-1. HUAWEI Analytics Kit 5.3.1.300
+1. HUAWEI Analytics Kit 6.2.0
 2. Android SDK applicable to devices using Android 4.3 Jelly Bean (API level 18) and later versions
 3. Android Studio 
-4. Java JDK 1.7 (JDK 1.8 is recommended.)
+4. JDK version: 1.8 or later
 
 ## Result
 After running the app you should see a screen like this:
 
 <img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
-Click TRUE or FALSE to answer the question; Click NEXT to show the next question; Click POST SCORE, log the score user got. All the information will be uploaded to the Hianalytics Console, and you can see these information in real time using Debug View.
+Click TRUE or FALSE to answer the question; Click NEXT to show the next question; Click POST SCORE, log the score user got. All the information will be uploaded to the Analytics Kit Console, and you can see these information in real time using Debug View.
 
 Click button SETTINGS:
 
 <img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
 
-When you click SETTINGS, you will be asked for your favorite sport. Your choice will be logged by Hianalytics as a user attribute.
+When you click SETTINGS, you will be asked for your favorite sport. Your choice will be logged by Analytics Kit as a user attribute.
 
 ##  License
 HmsAnalyticsKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
