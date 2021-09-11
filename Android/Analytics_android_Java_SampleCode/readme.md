@@ -22,7 +22,7 @@ For more development guidance, please refer to the links below:
 
 [Development Guide](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
-[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/package-summary-0000001085947990).
+[API References](https://developer.huawei.com/consumer/en/doc/development/HMSCore-References/android-api-analytics-overview-0000001051067140).
 
 We also provide an example to demonstrate the use of analytics SDK for Android.
 
@@ -30,11 +30,11 @@ This sample uses the Gradle build system.
 
 First download the demo by cloning this repository or downloading an archived snapshot.
 
-In Android Studio, use the "Open an existing Android Studio project", and select the directory of "Analytics_android_Java_SampleCode".
+In Android Studio, use the `Open an existing Android Studio project`, and select the directory of `Analytics_android_Java_SampleCode`.
 
-You can use the "gradle build" command to build the project directly.
+You can use the `gradle build` command to build the project directly.
 
-You should create an app in AppGallery Connect, and obtain the file of `agconnect-services.json` and add to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to build.gradle. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
+You should create an app in AppGallery Connect, and obtain the file of `agconnect-services.json` and add to the project. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
 
 ## Installation
@@ -58,7 +58,7 @@ You should create an app in AppGallery Connect, and obtain the file of `agconnec
     2. A Huawei phone, which is used to debug the developed app
     
     Software requirements:
-    1. HUAWEI Analytics Kit 6.2.0.301
+    1. HUAWEI Analytics Kit 6.2.0
     2. Android SDK applicable to devices using Android 4.3 Jelly Bean (API level 18) and later versions
     3. Android Studio 
     4. JDK version: 1.8 or later
