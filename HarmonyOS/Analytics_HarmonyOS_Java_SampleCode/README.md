@@ -66,13 +66,13 @@ You should create an app in AppGallery Connect, and obtain the file of `agconnec
 ## Result
 After running the Hap you should see a screen like this:
 
-<img src="./images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_0.PNG" height="650" width="313" style="max-width:100%;">
 
 Click the button True or False to answer the question; Click the Next, show the next question; Click Post Score, log the score user got. All the infomations will be upload to Analytics Kit Console, and you can see these infomations in real time using Debug View.
 
 Click button Settings:
 
-<img src="./images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
+<img src="./images/screen_1.PNG" height="650" width="313" style="max-width:100%;">
 
 You will be asked what your favorite sport is. This choice will be logged to Analytics Kit as a User Property.
 
