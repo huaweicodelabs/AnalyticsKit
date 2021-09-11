@@ -34,7 +34,7 @@ In Android Studio, click Open an existing Android Studio project, and select `An
 
 You can use the gradlew build command to build the project directly.
 
-You should create an app in AppGallery Connect, and obtain the `agconnect-services.json` file and add it to the project. You should also generate a signing certificate fingerprint and add the certificate file to the project, and add configuration to the build.gradle file.  More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
+You should create an app in AppGallery Connect, and obtain the `agconnect-services.json` file and add it to the project. More to [Development Process](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-dev-process-0000001050163813).
 
 
 ## Installation
