@@ -5,14 +5,14 @@
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Configuration](#configuration)
-* [Environment requirements](#Environment-requirements)
+* [Environment requirements](#environment-requirements)
 * [Sample Code](#sample-code)
 * [License](#license)
 
 ## Introduction
 
 HmsAnalyticsKitDemo is a QuickApp client that applying HUAWEI Hianalytics SDK used for showing how to collect user engagement and user preference.
-[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/introduction-0000001050745149).
+[Read more about Hianalytics](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/introduction-0000001050745149 ).
 
 ## Installation
 
