@@ -61,7 +61,7 @@ After running the app, you will see the following screen.
 
 Enable the debug mode. After the data is successfully reported, you can go to **HUAWEI Analytics** > **App debugging** to view the reported data.
 
-<img src="images/screen_1.PNG" height="415" width="827" style="max-width:100%;">
+<img src="images/screen_1.png" height="415" width="827" style="max-width:100%;">
 
 ## License
 The Analytics Kit HDC demo is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
