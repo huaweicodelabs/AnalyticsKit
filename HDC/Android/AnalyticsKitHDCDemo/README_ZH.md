@@ -57,11 +57,11 @@ AnalyticsKit HDC Demo以Gradle构建系统为例演示了如何使用Android分�
 ## 操作结果
 运行该app后，您将会看到如下页面：
 
-<img src="images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
+<img src="images/screen_0.PNG" height="770" width="368" style="max-width:100%;">
 
 开启调试模式。数据成功上报后，“华为分析 > 应用调试”页面会展示出数据，如下图：
 
-<img src="images/screen_1.PNG" height="534" width="300" style="max-width:100%;">
+<img src="images/screen_1.png" height="415" width="827" style="max-width:100%;">
 
 ## 授权许可
 AnalyticsKitHDCDemo经过[Apache 2.0授权许可](http://www.apache.org/licenses/LICENSE-2.0).
