@@ -55,11 +55,11 @@ Software:
 5. JDK 1.8 or later
 
 ## Operation Result
-After running the app, you will see the following screen.
+**Enable the debug mode**. After running the app, you will see the following screen.
 
 <img src="images/screen_0.PNG" height="770" width="368" style="max-width:100%;">
 
-Enable the debug mode. After the data is successfully reported, you can go to **HUAWEI Analytics** > **App debugging** to view the reported data.
+After the data is successfully reported, you can go to **HUAWEI Analytics** > **App debugging** to view the reported data.
 
 <img src="images/screen_1.png" height="415" width="827" style="max-width:100%;">
 
