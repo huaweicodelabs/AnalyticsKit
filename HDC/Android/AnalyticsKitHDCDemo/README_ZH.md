@@ -55,11 +55,11 @@ AnalyticsKit HDC Demo以Gradle构建系统为例演示了如何使用Android分�
 5. JDK 1.8及以上
 
 ## 操作结果
-开启调试模式。运行该app后，您将会看到如下页面：
+**开启调试模式**。运行该app后，您将会看到如下页面：
 
 <img src="images/screen_0.PNG" height="770" width="368" style="max-width:100%;">
 
-数据成功上报后，“华为分析 > 应用调试”页面会展示出数据，如下图：
+数据成功上报后，“**华为分析** > **应用调试**”页面会展示出数据，如下图：
 
 <img src="images/screen_1.png" height="415" width="827" style="max-width:100%;">
 
