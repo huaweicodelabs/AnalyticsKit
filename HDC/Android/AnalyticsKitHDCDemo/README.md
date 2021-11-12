@@ -46,7 +46,7 @@ Use Android Studio to open the decompressed project.
 Hardware:
 1. A computer (desktop or laptop)
 2. A Huawei phone used for app debugging
-  
+
 Software:
 1. Analytics Kit 6.2.0
 2. Android API level 18 (Android 4.3 Jelly Bean) or later
@@ -55,13 +55,13 @@ Software:
 5. JDK 1.8 or later
 
 ## Operation Result
-**Enable the debug mode**. After running the app, you will see the following screen.
+After running the app, you will see the following screen.
 
-<img src="images/screen_0.PNG" height="770" width="368" style="max-width:100%;">
+<img src="images/screen_0.PNG" height="534" width="300" style="max-width:100%;">
 
-After the data is successfully reported, you can go to **HUAWEI Analytics** > **App debugging** to view the reported data.
+Enable the debug mode. After the data is successfully reported, you can go to **HUAWEI Analytics** > **App debugging** to view the reported data.
 
-<img src="images/screen_1.png" height="415" width="827" style="max-width:100%;">
+<img src="images/screen_2.PNG" height="534" width="300" style="max-width:100%;">
 
 ## License
 The Analytics Kit HDC demo is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
