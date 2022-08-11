@@ -1,0 +1,22 @@
+{
+  "package": "com.huawei.hms.analytics.quickgame",
+  "name": "testAppJS",
+  "icon": "D:\\AnalyticsSDK_JS_CodeLab\\quickgame\\hmsanalyticskitdemo\\template-banner.png",
+  "versionName": "1.0.0",
+  "versionCode": "1",
+  "minPlatformVersion": "1060",
+  "manifestPath": "",
+  "deviceOrientation": "landscape",
+  "fullScreen": true,
+  "logLevel": "log",
+  "runRelease": false,
+  "appType": "fastgame",
+  "tinyPackageServer": "",
+  "useDebugKey": true,
+  "privatePath": "",
+  "certificatePath": "",
+  "disabledMode": "disabled is-disabled",
+  "npmPath": "",
+  "showNpmPath": false,
+  "packFirstScreenRes": false
+}
