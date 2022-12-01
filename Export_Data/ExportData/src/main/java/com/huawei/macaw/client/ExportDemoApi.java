@@ -54,7 +54,7 @@ public class ExportDemoApi {
 
     private static String tokenUri = "https://oauth-login.cloud.huawei.com/oauth2/v2/token";
 
-    private String clientSecret = "d5a2f73e7450f23da8e959e6d55622055985b4082977ebbf1eef82b4e0655a68";
+    private String clientSecret = "please input your clientSecret";
 
     private String clientId = "101957209";
 
