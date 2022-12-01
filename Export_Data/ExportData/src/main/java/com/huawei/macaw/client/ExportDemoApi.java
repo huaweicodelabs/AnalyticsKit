@@ -54,13 +54,13 @@ public class ExportDemoApi {
 
     private static String tokenUri = "https://oauth-login.cloud.huawei.com/oauth2/v2/token";
 
-    private String clientSecret = "Please enter your project <clientSecret>";
+    private String clientSecret = "Please enter your application <clientSecret>";
 
-    private String clientId = "Please enter your project <clientId>";
+    private String clientId = "Please enter your application <clientId>";
 
     private String grantType = "client_credentials";
 
-    private String productId = "Please enter your project <productId>";
+    private String productId = "Please enter your application <productId>";
 
     private String createRawDataExportTaskUri =
         "https://datacollector-dra.dt.hicloud.com/analytics/export/raw_data_requests/v2";
