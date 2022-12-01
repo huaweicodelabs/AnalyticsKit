@@ -55,7 +55,7 @@ public class ImportUserSample {
         // The value is the Client Id of the application
         authTokenRequest.setClientId(000000000);
         // The value is the Client Secret of the application
-        authTokenRequest.setClientSecret("Please enter your project <ClientSecret>");
+        authTokenRequest.setClientSecret("Please enter your application <ClientSecret>");
         return authTokenRequest;
     }
 
@@ -69,9 +69,9 @@ public class ImportUserSample {
         // ContentType fixed without moving
         importUserHeaders.setContentType("application/json;charset=UTF-8");
         // User's App ID on AppGallery Connect
-        importUserHeaders.setAppId("Please enter your project <AppId>");
+        importUserHeaders.setAppId("Please enter your application <AppId>");
         // User's Product ID on AppGallery Connect
-        importUserHeaders.setProductId("Please enter your project <ProductId>");
+        importUserHeaders.setProductId("Please enter your application <ProductId>");
         importUserHeaders.setAuthorization(authTokenResult.getTokenType() + " " + authTokenResult.getAccessToken());
         return importUserHeaders;
     }
